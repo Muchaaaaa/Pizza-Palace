@@ -11,6 +11,40 @@ header{
     float:right;
     height:200px;
 }
+.header-image2{
+    float:left;
+    height:100px;
+
+}
 body{
     background-color: yellowgreen;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.p2{
+    text-align: center;
+    font-size: 30px;
+}
+.p1{
+    text-align:left;
+    font-size: 30px;
+}
+h2{
+    text-align: left;
+    font-size:30px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form1{
+    text-align: left;
+}
+.form2{
+    text-align: left;
+}
+.form3{
+    text-align: left;
+}
+.img1{
+    float:right;
 }
