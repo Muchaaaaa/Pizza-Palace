@@ -35,7 +35,7 @@
                 
                 <form class="form">
                 <label for="Pizza size">Pizza Size</label>
-                <select class="browser default custom-select" id="p-size">
+                <select class="browser default custom-select" id="pizza-size">
                   <option>Choose size</option>
                   <option value="300">Small pizza=Kshs.300</option>
                   <option value="500">Medium pizza=Kshs.500</option>
@@ -46,7 +46,7 @@
                         
             
                         <label for="Pizza crust">Pizza Crust</label>
-                        <select class="browser default custom-select" id="p-crust">
+                        <select class="browser default custom-select" id="pizza-crust">
                           <option>Choose crust</option>
                           <option value="300">Crispy=Kshs.300</option>
                           <option value="350">Stuffed=Kshs.350</option>
@@ -55,7 +55,7 @@
                         <br>
                         <br>
                                 <label for="Pizza Toppings">Pizza Toppings</label>
-                                <select class="browser default custom-select" id="p-toppings">
+                                <select class="browser default custom-select" id="pizza-toppings">
                                   <option>Choose toppings</option>
                                   <option value="400">Pepperoni=Kshs.400</option>
                                   <option value="250">Mushrooms=Kshs.250</option>
@@ -67,10 +67,10 @@
                                      <br>    
 
 
-                            <label for="Quantity">Number</label>
-                            <input type="number" id="QTY" placeholder="0" max="15" min="0" /> <br />
+                            <label for="Number">Number</label>
+                            <input type="number" id="num" placeholder="0" max="15" min="0" /> <br />
                             <p><strong>300Kshs is included for delivery purposes</strong></p>
-                            <button onclick="onsubmit()" style="color: black; margin-top: 50px">
+                            <button onclick="checkout()" style="color: black; margin-top: 50px">
                               Order
                             </button>
                         </form>
@@ -80,7 +80,6 @@
             </p>
                     
         
-    <footer></footer>
-    
+    <script src="js/script.js"></script>
 </body>
 </html>
