@@ -23,28 +23,16 @@ body{
     background-size: cover;
     text-align: center;
 }
-.p2{
+.welcome{
     text-align: center;
-    font-size: 30px;
-}
-.p1{
-    text-align:left;
-    font-size: 30px;
+    font-size: x-large;
 }
 h2{
     text-align: left;
     font-size:30px ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.form1{
-    text-align: left;
-}
-.form2{
-    text-align: left;
-}
-.form3{
-    text-align: left;
-}
+
 .img1{
     float:right;
 }
