@@ -14,7 +14,8 @@ function getCrust(){
 function getToppings(){
   var pizzaTopping=document.getElementById("pizza-toppings").nodeValue;
   return (pizzaToppings);
-} 
+}
+
 function getNumber(){
   var number=document.getElementById("num").nodeValue;
   return (nnumber);
