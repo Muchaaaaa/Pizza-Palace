@@ -18,7 +18,7 @@ function getToppings(){
 
 function getNumber(){
   var number=document.getElementById("num").nodeValue;
-  return (nnumber);
+  return (number);
 }
 function checkout(){
   var Total= getCrust() + getSize() + getToppings() * getNumber()+300  ;
