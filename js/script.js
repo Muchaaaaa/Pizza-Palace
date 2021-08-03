@@ -4,26 +4,36 @@ let pizzaTopping=["Pepperoni","Mushroom","Bacon","Extra cheese","Black olives","
  
 
 function getSize(){
-  var pizzaSize=document.getElementById("pizza-size").nodeValue;
-  return (pizzaSize);
+  var pizzaSize=document.getElementById("pizza-size").value;
+  return parseInt(pizzaSize);
+  console.log(pizzaSize)
 }  
 function getCrust(){
-  var pizzaCrust=document.getElementById("pizza-crust").nodeValue;
-  return (pizzaCrust);
+  var pizzaCrust=document.getElementById("pizza-crust").value;
+  return parseInt(pizzaCrust);
+  console.log(pizzaCrust)
+
 } 
 function getToppings(){
-  var pizzaTopping=document.getElementById("pizza-toppings").nodeValue;
-  return (pizzaToppings);
+  var pizzaToppings=document.getElementById("pizza-toppings").value;
+  return parseInt(pizzaToppings);
+  console.log(pizzaToppings)
 }
 
 function getNumber(){
-  var number=document.getElementById("num").nodeValue;
-  return (number);
+  var number=document.getElementById("num").value;
+  return parseInt(number);
+  console.log(number)
 }
-function checkout(){
-  var Total= getCrust() + getSize() + getToppings() * getNumber()+300  ;
+function delivery(){
+  var Total= getToppings() + getSize() + getCrust() * getNumber() +300  ;
   alert("Your total bill is Ksh." + (Total));
   prompt("Please enter your location")
   alert("Thank you and enjoy")
 }   
  
+function checkout(){
+  var Total= getToppings() + getSize() + getCrust() * getNumber();
+  alert("Your total bill is Ksh." + (Total));
+  alert("Thank you and enjoy")
+}   
